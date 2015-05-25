@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-### TODO
+## TODO
 
 * Deploy/bundle/minify script
 * Browser-Sync
