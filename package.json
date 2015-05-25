@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottcorgan/static-app.git"
+  },
   "scripts": {
     "bundle": "browserify ./app/js/index.jsx -o ./app/bundle.js --extension=.jsx",
     "watch-js": "watchify ./app/js/index.jsx -o ./app/bundle.js --extension=.jsx --verbose --debug",
