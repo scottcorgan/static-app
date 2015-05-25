@@ -1,8 +1,9 @@
+import React, {render} from 'react';
 import Router, {Route, DefaultRoute, RouteHandler} from 'react-router';
 
 import App from './app';
-import Home from './home';
-import Contact from './Contact';
+import Home from './components/home';
+import Contact from './components/contact';
 
 let routes = (
   <Route name='App' handler={App} path='/'>
