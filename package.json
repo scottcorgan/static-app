@@ -1,0 +1,40 @@
+{
+  "name": "static-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify ./app/js/index.jsx -o ./app/bundle.js --extension=.jsx",
+    "watch-js": "watchify ./app/js/index.jsx -o ./app/bundle.js --extension=.jsx --verbose --debug",
+    "serve": "superstatic",
+    "start": "npm run watch-js & npm run serve"
+  },
+  "browserify": {
+    "sourceMaps": {
+      "inlinineSourcesContent": true,
+      "sourceFileRoot": "./app"
+    },
+    "transform": [
+      [
+        "babelify",
+        {
+          "stage": "0"
+        }
+      ]
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.1",
+    "superstatic": "^2.2.0",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^3.9.2",
+    "radium": "^0.12.2",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}

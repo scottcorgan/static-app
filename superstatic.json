@@ -1,0 +1,7 @@
+{
+  "name": "static-app",
+  "root": "./app",
+  "routes": {
+    "**": "index.html"
+  }
+}
