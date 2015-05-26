@@ -41,8 +41,10 @@
   },
   "dependencies": {
     "lodash": "^3.9.2",
+    "object-assign": "^2.0.0",
     "radium": "^0.12.2",
     "react": "^0.13.3",
-    "react-router": "^0.13.3"
+    "react-router": "^0.13.3",
+    "whatwg-fetch": "^0.8.2"
   }
 }
