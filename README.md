@@ -7,7 +7,7 @@ Files to get you started developing a static app.
 * [Radium](https://github.com/FormidableLabs/radium)
 * [Superstatic](https://github.com/divshot/superstatic)
 * [Browserify](https://github.com/substack/node-browserify)
-* [Bable](https://babeljs.io/)
+* [Babel](https://babeljs.io/)
 
 ## Install
 
